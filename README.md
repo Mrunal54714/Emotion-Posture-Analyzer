@@ -10,4 +10,4 @@ This project is a Computer Vision application that performs real-time analysis o
 
 ## Tech Stack
 - **Language:** Python
-- **Libraries:** OpenCV, MediaPipe, Deepface
+- **Libraries:** streamlit, opencv, mediapipe, deepface, numpy, pandas, matplotlib, Pillow, tensorflow, tf-keras
