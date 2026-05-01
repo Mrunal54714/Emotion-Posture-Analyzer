@@ -1,0 +1,1173 @@
+{
+    "module": "computer_vision",
+    "version": "1.0",
+    "generated_at": "20260420_102731",
+    "summary": {
+        "source_name": "webcam_0",
+        "source_type": "webcam",
+        "fps": 15.0,
+        "total_frames_processed": 30,
+        "stopped_early": false,
+        "dominant_emotion_overall": "neutral",
+        "average_emotions": {
+            "angry": 5.51,
+            "disgust": 0.0,
+            "fear": 5.66,
+            "happy": 26.68,
+            "sad": 22.59,
+            "surprise": 0.0,
+            "neutral": 39.56
+        },
+        "average_eye_contact_score": 65.09,
+        "average_head_pose_score": 52.32,
+        "average_posture_score": 79.92,
+        "average_overall_visual_score": 65.77
+    },
+    "statistics": {
+        "feature_statistics": {
+            "eye_contact_score": {
+                "label": "Eye Contact Score",
+                "average": 65.09,
+                "max": 95.87,
+                "min": 0.0
+            },
+            "head_pose_score": {
+                "label": "Head Pose Score",
+                "average": 52.32,
+                "max": 85.87,
+                "min": 0.0
+            },
+            "posture_score": {
+                "label": "Posture Score",
+                "average": 79.92,
+                "max": 94.03,
+                "min": 42.64
+            },
+            "overall_visual_score": {
+                "label": "Overall Visual Score",
+                "average": 65.77,
+                "max": 86.3,
+                "min": 14.21
+            }
+        },
+        "emotion_statistics": {
+            "angry": {
+                "average": 5.51,
+                "max": 32.83,
+                "min": 0.0
+            },
+            "disgust": {
+                "average": 0.0,
+                "max": 0.0,
+                "min": 0.0
+            },
+            "fear": {
+                "average": 5.66,
+                "max": 26.01,
+                "min": 0.0
+            },
+            "happy": {
+                "average": 26.68,
+                "max": 99.95,
+                "min": 2.21
+            },
+            "sad": {
+                "average": 22.59,
+                "max": 66.78,
+                "min": 0.0
+            },
+            "surprise": {
+                "average": 0.0,
+                "max": 0.0,
+                "min": 0.0
+            },
+            "neutral": {
+                "average": 39.56,
+                "max": 83.33,
+                "min": 0.04
+            }
+        }
+    },
+    "timeline": [
+        {
+            "frame_index": 0,
+            "timestamp_sec": 0.0,
+            "face_detected": true,
+            "pose_detected": true,
+            "dominant_emotion": "happy",
+            "emotions": {
+                "angry": 32.82733857631683,
+                "disgust": 4.778693066254114e-09,
+                "fear": 0.13383085606619716,
+                "happy": 41.699084639549255,
+                "sad": 0.023429386783391237,
+                "surprise": 0.00028482779725891305,
+                "neutral": 25.316035747528076
+            },
+            "eye_contact": {
+                "left_eye_ratio": 0.408,
+                "right_eye_ratio": 0.574,
+                "score": 83.48
+            },
+            "head_pose": {
+                "pitch": -7.11,
+                "yaw": -12.15,
+                "roll": 4.83,
+                "score": 78.33
+            },
+            "posture": {
+                "shoulder_tilt": 37.09,
+                "alignment_offset": 51.26,
+                "score": 68.64
+            },
+            "eye_contact_score": 83.48,
+            "head_pose_score": 78.33,
+            "posture_score": 68.64,
+            "overall_visual_score": 76.82
+        },
+        {
+            "frame_index": 1,
+            "timestamp_sec": 0.07,
+            "face_detected": true,
+            "pose_detected": true,
+            "dominant_emotion": "happy",
+            "emotions": {
+                "angry": 32.82733857631683,
+                "disgust": 4.778693066254114e-09,
+                "fear": 0.13383085606619716,
+                "happy": 41.699084639549255,
+                "sad": 0.023429386783391237,
+                "surprise": 0.00028482779725891305,
+                "neutral": 25.316035747528076
+            },
+            "eye_contact": {
+                "left_eye_ratio": 0.52,
+                "right_eye_ratio": 0.316,
+                "score": 79.63
+            },
+            "head_pose": {
+                "pitch": -12.99,
+                "yaw": 7.28,
+                "roll": -3.96,
+                "score": 77.75
+            },
+            "posture": {
+                "shoulder_tilt": 31.69,
+                "alignment_offset": 24.46,
+                "score": 78.04
+            },
+            "eye_contact_score": 79.63,
+            "head_pose_score": 77.75,
+            "posture_score": 78.04,
+            "overall_visual_score": 78.47
+        },
+        {
+            "frame_index": 2,
+            "timestamp_sec": 0.13,
+            "face_detected": false,
+            "pose_detected": true,
+            "dominant_emotion": "happy",
+            "emotions": {
+                "angry": 32.82733857631683,
+                "disgust": 4.778693066254114e-09,
+                "fear": 0.13383085606619716,
+                "happy": 41.699084639549255,
+                "sad": 0.023429386783391237,
+                "surprise": 0.00028482779725891305,
+                "neutral": 25.316035747528076
+            },
+            "eye_contact": {
+                "left_eye_ratio": 0.0,
+                "right_eye_ratio": 0.0,
+                "score": 0.0
+            },
+            "head_pose": {
+                "pitch": 0.0,
+                "yaw": 0.0,
+                "roll": 0.0,
+                "score": 0.0
+            },
+            "posture": {
+                "shoulder_tilt": 75.12,
+                "alignment_offset": 79.18,
+                "score": 42.64
+            },
+            "eye_contact_score": 0.0,
+            "head_pose_score": 0.0,
+            "posture_score": 42.64,
+            "overall_visual_score": 14.21
+        },
+        {
+            "frame_index": 3,
+            "timestamp_sec": 0.2,
+            "face_detected": true,
+            "pose_detected": true,
+            "dominant_emotion": "happy",
+            "emotions": {
+                "angry": 32.82733857631683,
+                "disgust": 4.778693066254114e-09,
+                "fear": 0.13383085606619716,
+                "happy": 41.699084639549255,
+                "sad": 0.023429386783391237,
+                "surprise": 0.00028482779725891305,
+                "neutral": 25.316035747528076
+            },
+            "eye_contact": {
+                "left_eye_ratio": 0.462,
+                "right_eye_ratio": 0.529,
+                "score": 93.35
+            },
+            "head_pose": {
+                "pitch": -9.78,
+                "yaw": 0.22,
+                "roll": -19.0,
+                "score": 80.49
+            },
+            "posture": {
+                "shoulder_tilt": 46.15,
+                "alignment_offset": 65.39,
+                "score": 60.58
+            },
+            "eye_contact_score": 93.35,
+            "head_pose_score": 80.49,
+            "posture_score": 60.58,
+            "overall_visual_score": 78.14
+        },
+        {
+            "frame_index": 4,
+            "timestamp_sec": 0.27,
+            "face_detected": false,
+            "pose_detected": true,
+            "dominant_emotion": "happy",
+            "emotions": {
+                "angry": 32.82733857631683,
+                "disgust": 4.778693066254114e-09,
+                "fear": 0.13383085606619716,
+                "happy": 41.699084639549255,
+                "sad": 0.023429386783391237,
+                "surprise": 0.00028482779725891305,
+                "neutral": 25.316035747528076
+            },
+            "eye_contact": {
+                "left_eye_ratio": 0.0,
+                "right_eye_ratio": 0.0,
+                "score": 0.0
+            },
+            "head_pose": {
+                "pitch": 0.0,
+                "yaw": 0.0,
+                "roll": 0.0,
+                "score": 0.0
+            },
+            "posture": {
+                "shoulder_tilt": 8.72,
+                "alignment_offset": 6.46,
+                "score": 94.03
+            },
+            "eye_contact_score": 0.0,
+            "head_pose_score": 0.0,
+            "posture_score": 94.03,
+            "overall_visual_score": 31.34
+        },
+        {
+            "frame_index": 5,
+            "timestamp_sec": 0.33,
+            "face_detected": true,
+            "pose_detected": true,
+            "dominant_emotion": "sad",
+            "emotions": {
+                "angry": 0.11210037456001347,
+                "disgust": 6.499414631078912e-06,
+                "fear": 1.1408521365103559,
+                "happy": 2.639724744591147,
+                "sad": 66.7781273391095,
+                "surprise": 0.0002185337474259947,
+                "neutral": 29.328965624694153
+            },
+            "eye_contact": {
+                "left_eye_ratio": 0.454,
+                "right_eye_ratio": 0.482,
+                "score": 93.58
+            },
+            "head_pose": {
+                "pitch": -18.69,
+                "yaw": -3.99,
+                "roll": 5.05,
+                "score": 74.8
+            },
+            "posture": {
+                "shoulder_tilt": 13.16,
+                "alignment_offset": 29.11,
+                "score": 86.14
+            },
+            "eye_contact_score": 93.58,
+            "head_pose_score": 74.8,
+            "posture_score": 86.14,
+            "overall_visual_score": 84.84
+        },
+        {
+            "frame_index": 6,
+            "timestamp_sec": 0.4,
+            "face_detected": true,
+            "pose_detected": true,
+            "dominant_emotion": "sad",
+            "emotions": {
+                "angry": 0.11210037456001347,
+                "disgust": 6.499414631078912e-06,
+                "fear": 1.1408521365103559,
+                "happy": 2.639724744591147,
+                "sad": 66.7781273391095,
+                "surprise": 0.0002185337474259947,
+                "neutral": 29.328965624694153
+            },
+            "eye_contact": {
+                "left_eye_ratio": 0.459,
+                "right_eye_ratio": 0.5,
+                "score": 95.87
+            },
+            "head_pose": {
+                "pitch": -10.89,
+                "yaw": -4.77,
+                "roll": 1.46,
+                "score": 83.6
+            },
+            "posture": {
+                "shoulder_tilt": 17.78,
+                "alignment_offset": 46.73,
+                "score": 79.43
+            },
+            "eye_contact_score": 95.87,
+            "head_pose_score": 83.6,
+            "posture_score": 79.43,
+            "overall_visual_score": 86.3
+        },
+        {
+            "frame_index": 7,
+            "timestamp_sec": 0.47,
+            "face_detected": true,
+            "pose_detected": true,
+            "dominant_emotion": "sad",
+            "emotions": {
+                "angry": 0.11210037456001347,
+                "disgust": 6.499414631078912e-06,
+                "fear": 1.1408521365103559,
+                "happy": 2.639724744591147,
+                "sad": 66.7781273391095,
+                "surprise": 0.0002185337474259947,
+                "neutral": 29.328965624694153
+            },
+            "eye_contact": {
+                "left_eye_ratio": 0.508,
+                "right_eye_ratio": 0.393,
+                "score": 88.54
+            },
+            "head_pose": {
+                "pitch": 5.0,
+                "yaw": -13.44,
+                "roll": -8.63,
+                "score": 77.24
+            },
+            "posture": {
+                "shoulder_tilt": 27.66,
+                "alignment_offset": 22.13,
+                "score": 80.64
+            },
+            "eye_contact_score": 88.54,
+            "head_pose_score": 77.24,
+            "posture_score": 80.64,
+            "overall_visual_score": 82.14
+        },
+        {
+            "frame_index": 8,
+            "timestamp_sec": 0.53,
+            "face_detected": false,
+            "pose_detected": true,
+            "dominant_emotion": "sad",
+            "emotions": {
+                "angry": 0.11210037456001347,
+                "disgust": 6.499414631078912e-06,
+                "fear": 1.1408521365103559,
+                "happy": 2.639724744591147,
+                "sad": 66.7781273391095,
+                "surprise": 0.0002185337474259947,
+                "neutral": 29.328965624694153
+            },
+            "eye_contact": {
+                "left_eye_ratio": 0.0,
+                "right_eye_ratio": 0.0,
+                "score": 0.0
+            },
+            "head_pose": {
+                "pitch": 0.0,
+                "yaw": 0.0,
+                "roll": 0.0,
+                "score": 0.0
+            },
+            "posture": {
+                "shoulder_tilt": 28.94,
+                "alignment_offset": 31.14,
+                "score": 77.74
+            },
+            "eye_contact_score": 0.0,
+            "head_pose_score": 0.0,
+            "posture_score": 77.74,
+            "overall_visual_score": 25.91
+        },
+        {
+            "frame_index": 9,
+            "timestamp_sec": 0.6,
+            "face_detected": true,
+            "pose_detected": true,
+            "dominant_emotion": "sad",
+            "emotions": {
+                "angry": 0.11210037456001347,
+                "disgust": 6.499414631078912e-06,
+                "fear": 1.1408521365103559,
+                "happy": 2.639724744591147,
+                "sad": 66.7781273391095,
+                "surprise": 0.0002185337474259947,
+                "neutral": 29.328965624694153
+            },
+            "eye_contact": {
+                "left_eye_ratio": 0.563,
+                "right_eye_ratio": 0.472,
+                "score": 90.88
+            },
+            "head_pose": {
+                "pitch": -13.39,
+                "yaw": -9.54,
+                "roll": 3.73,
+                "score": 75.2
+            },
+            "posture": {
+                "shoulder_tilt": 8.98,
+                "alignment_offset": 26.7,
+                "score": 88.84
+            },
+            "eye_contact_score": 90.88,
+            "head_pose_score": 75.2,
+            "posture_score": 88.84,
+            "overall_visual_score": 84.97
+        },
+        {
+            "frame_index": 10,
+            "timestamp_sec": 0.67,
+            "face_detected": false,
+            "pose_detected": true,
+            "dominant_emotion": "sad",
+            "emotions": {
+                "angry": 0.11210037456001347,
+                "disgust": 6.499414631078912e-06,
+                "fear": 1.1408521365103559,
+                "happy": 2.639724744591147,
+                "sad": 66.7781273391095,
+                "surprise": 0.0002185337474259947,
+                "neutral": 29.328965624694153
+            },
+            "eye_contact": {
+                "left_eye_ratio": 0.0,
+                "right_eye_ratio": 0.0,
+                "score": 0.0
+            },
+            "head_pose": {
+                "pitch": 0.0,
+                "yaw": 0.0,
+                "roll": 0.0,
+                "score": 0.0
+            },
+            "posture": {
+                "shoulder_tilt": 11.91,
+                "alignment_offset": 47.88,
+                "score": 82.07
+            },
+            "eye_contact_score": 0.0,
+            "head_pose_score": 0.0,
+            "posture_score": 82.07,
+            "overall_visual_score": 27.36
+        },
+        {
+            "frame_index": 11,
+            "timestamp_sec": 0.73,
+            "face_detected": true,
+            "pose_detected": true,
+            "dominant_emotion": "sad",
+            "emotions": {
+                "angry": 0.11210037456001347,
+                "disgust": 6.499414631078912e-06,
+                "fear": 1.1408521365103559,
+                "happy": 2.639724744591147,
+                "sad": 66.7781273391095,
+                "surprise": 0.0002185337474259947,
+                "neutral": 29.328965624694153
+            },
+            "eye_contact": {
+                "left_eye_ratio": 0.38,
+                "right_eye_ratio": 0.539,
+                "score": 84.11
+            },
+            "head_pose": {
+                "pitch": -12.61,
+                "yaw": 12.81,
+                "roll": -23.37,
+                "score": 62.9
+            },
+            "posture": {
+                "shoulder_tilt": 23.84,
+                "alignment_offset": 11.03,
+                "score": 85.32
+            },
+            "eye_contact_score": 84.11,
+            "head_pose_score": 62.9,
+            "posture_score": 85.32,
+            "overall_visual_score": 77.44
+        },
+        {
+            "frame_index": 12,
+            "timestamp_sec": 0.8,
+            "face_detected": true,
+            "pose_detected": true,
+            "dominant_emotion": "sad",
+            "emotions": {
+                "angry": 0.11210037456001347,
+                "disgust": 6.499414631078912e-06,
+                "fear": 1.1408521365103559,
+                "happy": 2.639724744591147,
+                "sad": 66.7781273391095,
+                "surprise": 0.0002185337474259947,
+                "neutral": 29.328965624694153
+            },
+            "eye_contact": {
+                "left_eye_ratio": 0.441,
+                "right_eye_ratio": 0.509,
+                "score": 93.22
+            },
+            "head_pose": {
+                "pitch": -3.53,
+                "yaw": 9.78,
+                "roll": -21.37,
+                "score": 76.0
+            },
+            "posture": {
+                "shoulder_tilt": 20.84,
+                "alignment_offset": 19.08,
+                "score": 84.81
+            },
+            "eye_contact_score": 93.22,
+            "head_pose_score": 76.0,
+            "posture_score": 84.81,
+            "overall_visual_score": 84.68
+        },
+        {
+            "frame_index": 13,
+            "timestamp_sec": 0.87,
+            "face_detected": true,
+            "pose_detected": true,
+            "dominant_emotion": "sad",
+            "emotions": {
+                "angry": 0.11210037456001347,
+                "disgust": 6.499414631078912e-06,
+                "fear": 1.1408521365103559,
+                "happy": 2.639724744591147,
+                "sad": 66.7781273391095,
+                "surprise": 0.0002185337474259947,
+                "neutral": 29.328965624694153
+            },
+            "eye_contact": {
+                "left_eye_ratio": 0.436,
+                "right_eye_ratio": 0.547,
+                "score": 88.85
+            },
+            "head_pose": {
+                "pitch": -9.58,
+                "yaw": 10.22,
+                "roll": -23.36,
+                "score": 68.52
+            },
+            "posture": {
+                "shoulder_tilt": 19.82,
+                "alignment_offset": 16.23,
+                "score": 86.03
+            },
+            "eye_contact_score": 88.85,
+            "head_pose_score": 68.52,
+            "posture_score": 86.03,
+            "overall_visual_score": 81.13
+        },
+        {
+            "frame_index": 14,
+            "timestamp_sec": 0.93,
+            "face_detected": true,
+            "pose_detected": true,
+            "dominant_emotion": "sad",
+            "emotions": {
+                "angry": 0.11210037456001347,
+                "disgust": 6.499414631078912e-06,
+                "fear": 1.1408521365103559,
+                "happy": 2.639724744591147,
+                "sad": 66.7781273391095,
+                "surprise": 0.0002185337474259947,
+                "neutral": 29.328965624694153
+            },
+            "eye_contact": {
+                "left_eye_ratio": 0.385,
+                "right_eye_ratio": 0.414,
+                "score": 79.9
+            },
+            "head_pose": {
+                "pitch": -15.94,
+                "yaw": 10.25,
+                "roll": -22.55,
+                "score": 62.53
+            },
+            "posture": {
+                "shoulder_tilt": 10.08,
+                "alignment_offset": 11.04,
+                "score": 92.2
+            },
+            "eye_contact_score": 79.9,
+            "head_pose_score": 62.53,
+            "posture_score": 92.2,
+            "overall_visual_score": 78.21
+        },
+        {
+            "frame_index": 15,
+            "timestamp_sec": 1.0,
+            "face_detected": true,
+            "pose_detected": true,
+            "dominant_emotion": "neutral",
+            "emotions": {
+                "angry": 0.0001058092948369449,
+                "disgust": 1.4434052873122077e-14,
+                "fear": 5.518437922000885,
+                "happy": 10.959237813949585,
+                "sad": 0.1962485257536173,
+                "surprise": 2.3849446861845536e-06,
+                "neutral": 83.32597017288208
+            },
+            "eye_contact": {
+                "left_eye_ratio": 0.365,
+                "right_eye_ratio": 0.584,
+                "score": 78.03
+            },
+            "head_pose": {
+                "pitch": -15.29,
+                "yaw": 13.78,
+                "roll": -20.91,
+                "score": 60.47
+            },
+            "posture": {
+                "shoulder_tilt": 12.45,
+                "alignment_offset": 7.83,
+                "score": 91.82
+            },
+            "eye_contact_score": 78.03,
+            "head_pose_score": 60.47,
+            "posture_score": 91.82,
+            "overall_visual_score": 76.77
+        },
+        {
+            "frame_index": 16,
+            "timestamp_sec": 1.07,
+            "face_detected": true,
+            "pose_detected": true,
+            "dominant_emotion": "neutral",
+            "emotions": {
+                "angry": 0.0001058092948369449,
+                "disgust": 1.4434052873122077e-14,
+                "fear": 5.518437922000885,
+                "happy": 10.959237813949585,
+                "sad": 0.1962485257536173,
+                "surprise": 2.3849446861845536e-06,
+                "neutral": 83.32597017288208
+            },
+            "eye_contact": {
+                "left_eye_ratio": 0.403,
+                "right_eye_ratio": 0.569,
+                "score": 83.44
+            },
+            "head_pose": {
+                "pitch": -16.43,
+                "yaw": 13.23,
+                "roll": -22.76,
+                "score": 58.97
+            },
+            "posture": {
+                "shoulder_tilt": 21.59,
+                "alignment_offset": 19.33,
+                "score": 84.37
+            },
+            "eye_contact_score": 83.44,
+            "head_pose_score": 58.97,
+            "posture_score": 84.37,
+            "overall_visual_score": 75.59
+        },
+        {
+            "frame_index": 17,
+            "timestamp_sec": 1.13,
+            "face_detected": true,
+            "pose_detected": true,
+            "dominant_emotion": "neutral",
+            "emotions": {
+                "angry": 0.0001058092948369449,
+                "disgust": 1.4434052873122077e-14,
+                "fear": 5.518437922000885,
+                "happy": 10.959237813949585,
+                "sad": 0.1962485257536173,
+                "surprise": 2.3849446861845536e-06,
+                "neutral": 83.32597017288208
+            },
+            "eye_contact": {
+                "left_eye_ratio": 0.363,
+                "right_eye_ratio": 0.239,
+                "score": 60.28
+            },
+            "head_pose": {
+                "pitch": -17.38,
+                "yaw": 12.75,
+                "roll": -22.05,
+                "score": 58.85
+            },
+            "posture": {
+                "shoulder_tilt": 20.07,
+                "alignment_offset": 4.01,
+                "score": 88.97
+            },
+            "eye_contact_score": 60.28,
+            "head_pose_score": 58.85,
+            "posture_score": 88.97,
+            "overall_visual_score": 69.37
+        },
+        {
+            "frame_index": 18,
+            "timestamp_sec": 1.2,
+            "face_detected": true,
+            "pose_detected": true,
+            "dominant_emotion": "neutral",
+            "emotions": {
+                "angry": 0.0001058092948369449,
+                "disgust": 1.4434052873122077e-14,
+                "fear": 5.518437922000885,
+                "happy": 10.959237813949585,
+                "sad": 0.1962485257536173,
+                "surprise": 2.3849446861845536e-06,
+                "neutral": 83.32597017288208
+            },
+            "eye_contact": {
+                "left_eye_ratio": 0.424,
+                "right_eye_ratio": 0.551,
+                "score": 87.32
+            },
+            "head_pose": {
+                "pitch": -14.5,
+                "yaw": 13.74,
+                "roll": -23.84,
+                "score": 59.84
+            },
+            "posture": {
+                "shoulder_tilt": 11.41,
+                "alignment_offset": 3.88,
+                "score": 93.32
+            },
+            "eye_contact_score": 87.32,
+            "head_pose_score": 59.84,
+            "posture_score": 93.32,
+            "overall_visual_score": 80.16
+        },
+        {
+            "frame_index": 19,
+            "timestamp_sec": 1.27,
+            "face_detected": true,
+            "pose_detected": true,
+            "dominant_emotion": "neutral",
+            "emotions": {
+                "angry": 0.0001058092948369449,
+                "disgust": 1.4434052873122077e-14,
+                "fear": 5.518437922000885,
+                "happy": 10.959237813949585,
+                "sad": 0.1962485257536173,
+                "surprise": 2.3849446861845536e-06,
+                "neutral": 83.32597017288208
+            },
+            "eye_contact": {
+                "left_eye_ratio": 0.431,
+                "right_eye_ratio": 0.608,
+                "score": 82.23
+            },
+            "head_pose": {
+                "pitch": -21.64,
+                "yaw": 12.89,
+                "roll": -24.43,
+                "score": 53.26
+            },
+            "posture": {
+                "shoulder_tilt": 16.91,
+                "alignment_offset": 29.75,
+                "score": 84.11
+            },
+            "eye_contact_score": 82.23,
+            "head_pose_score": 53.26,
+            "posture_score": 84.11,
+            "overall_visual_score": 73.2
+        },
+        {
+            "frame_index": 20,
+            "timestamp_sec": 1.33,
+            "face_detected": true,
+            "pose_detected": true,
+            "dominant_emotion": "neutral",
+            "emotions": {
+                "angry": 0.011703609925461933,
+                "disgust": 5.3039121488893115e-11,
+                "fear": 26.008591055870056,
+                "happy": 2.211967296898365,
+                "sad": 1.7582455649971962,
+                "surprise": 0.0004903959052171558,
+                "neutral": 70.00899910926819
+            },
+            "eye_contact": {
+                "left_eye_ratio": 0.446,
+                "right_eye_ratio": 0.6,
+                "score": 84.58
+            },
+            "head_pose": {
+                "pitch": -1.76,
+                "yaw": 10.63,
+                "roll": -23.61,
+                "score": 75.81
+            },
+            "posture": {
+                "shoulder_tilt": 20.06,
+                "alignment_offset": 21.58,
+                "score": 84.58
+            },
+            "eye_contact_score": 84.58,
+            "head_pose_score": 75.81,
+            "posture_score": 84.58,
+            "overall_visual_score": 81.66
+        },
+        {
+            "frame_index": 21,
+            "timestamp_sec": 1.4,
+            "face_detected": true,
+            "pose_detected": true,
+            "dominant_emotion": "neutral",
+            "emotions": {
+                "angry": 0.011703609925461933,
+                "disgust": 5.3039121488893115e-11,
+                "fear": 26.008591055870056,
+                "happy": 2.211967296898365,
+                "sad": 1.7582455649971962,
+                "surprise": 0.0004903959052171558,
+                "neutral": 70.00899910926819
+            },
+            "eye_contact": {
+                "left_eye_ratio": 0.527,
+                "right_eye_ratio": 0.598,
+                "score": 87.47
+            },
+            "head_pose": {
+                "pitch": -0.15,
+                "yaw": 0.55,
+                "roll": -26.86,
+                "score": 85.87
+            },
+            "posture": {
+                "shoulder_tilt": 18.33,
+                "alignment_offset": 38.24,
+                "score": 81.28
+            },
+            "eye_contact_score": 87.47,
+            "head_pose_score": 85.87,
+            "posture_score": 81.28,
+            "overall_visual_score": 84.87
+        },
+        {
+            "frame_index": 22,
+            "timestamp_sec": 1.47,
+            "face_detected": true,
+            "pose_detected": true,
+            "dominant_emotion": "neutral",
+            "emotions": {
+                "angry": 0.011703609925461933,
+                "disgust": 5.3039121488893115e-11,
+                "fear": 26.008591055870056,
+                "happy": 2.211967296898365,
+                "sad": 1.7582455649971962,
+                "surprise": 0.0004903959052171558,
+                "neutral": 70.00899910926819
+            },
+            "eye_contact": {
+                "left_eye_ratio": 0.398,
+                "right_eye_ratio": 0.594,
+                "score": 80.4
+            },
+            "head_pose": {
+                "pitch": -16.45,
+                "yaw": 7.45,
+                "roll": -26.69,
+                "score": 62.75
+            },
+            "posture": {
+                "shoulder_tilt": 27.62,
+                "alignment_offset": 8.09,
+                "score": 84.17
+            },
+            "eye_contact_score": 80.4,
+            "head_pose_score": 62.75,
+            "posture_score": 84.17,
+            "overall_visual_score": 75.77
+        },
+        {
+            "frame_index": 23,
+            "timestamp_sec": 1.53,
+            "face_detected": true,
+            "pose_detected": true,
+            "dominant_emotion": "neutral",
+            "emotions": {
+                "angry": 0.011703609925461933,
+                "disgust": 5.3039121488893115e-11,
+                "fear": 26.008591055870056,
+                "happy": 2.211967296898365,
+                "sad": 1.7582455649971962,
+                "surprise": 0.0004903959052171558,
+                "neutral": 70.00899910926819
+            },
+            "eye_contact": {
+                "left_eye_ratio": 0.394,
+                "right_eye_ratio": 0.545,
+                "score": 84.98
+            },
+            "head_pose": {
+                "pitch": -3.59,
+                "yaw": 9.22,
+                "roll": -23.9,
+                "score": 75.24
+            },
+            "posture": {
+                "shoulder_tilt": 40.12,
+                "alignment_offset": 11.51,
+                "score": 77.06
+            },
+            "eye_contact_score": 84.98,
+            "head_pose_score": 75.24,
+            "posture_score": 77.06,
+            "overall_visual_score": 79.09
+        },
+        {
+            "frame_index": 24,
+            "timestamp_sec": 1.6,
+            "face_detected": false,
+            "pose_detected": true,
+            "dominant_emotion": "neutral",
+            "emotions": {
+                "angry": 0.011703609925461933,
+                "disgust": 5.3039121488893115e-11,
+                "fear": 26.008591055870056,
+                "happy": 2.211967296898365,
+                "sad": 1.7582455649971962,
+                "surprise": 0.0004903959052171558,
+                "neutral": 70.00899910926819
+            },
+            "eye_contact": {
+                "left_eye_ratio": 0.0,
+                "right_eye_ratio": 0.0,
+                "score": 0.0
+            },
+            "head_pose": {
+                "pitch": 0.0,
+                "yaw": 0.0,
+                "roll": 0.0,
+                "score": 0.0
+            },
+            "posture": {
+                "shoulder_tilt": 45.81,
+                "alignment_offset": 15.63,
+                "score": 73.18
+            },
+            "eye_contact_score": 0.0,
+            "head_pose_score": 0.0,
+            "posture_score": 73.18,
+            "overall_visual_score": 24.39
+        },
+        {
+            "frame_index": 25,
+            "timestamp_sec": 1.67,
+            "face_detected": true,
+            "pose_detected": true,
+            "dominant_emotion": "happy",
+            "emotions": {
+                "angry": 3.251553109613812e-08,
+                "disgust": 2.2696894375397094e-16,
+                "fear": 0.0010375809033565948,
+                "happy": 99.95381235801055,
+                "sad": 0.00042019117021268226,
+                "surprise": 8.800916770352464e-09,
+                "neutral": 0.04473464480882256
+            },
+            "eye_contact": {
+                "left_eye_ratio": 0.235,
+                "right_eye_ratio": 0.535,
+                "score": 69.94
+            },
+            "head_pose": {
+                "pitch": -20.06,
+                "yaw": -21.72,
+                "roll": -8.41,
+                "score": 54.01
+            },
+            "posture": {
+                "shoulder_tilt": 48.92,
+                "alignment_offset": 45.6,
+                "score": 64.14
+            },
+            "eye_contact_score": 69.94,
+            "head_pose_score": 54.01,
+            "posture_score": 64.14,
+            "overall_visual_score": 62.7
+        },
+        {
+            "frame_index": 26,
+            "timestamp_sec": 1.73,
+            "face_detected": false,
+            "pose_detected": true,
+            "dominant_emotion": "happy",
+            "emotions": {
+                "angry": 3.251553109613812e-08,
+                "disgust": 2.2696894375397094e-16,
+                "fear": 0.0010375809033565948,
+                "happy": 99.95381235801055,
+                "sad": 0.00042019117021268226,
+                "surprise": 8.800916770352464e-09,
+                "neutral": 0.04473464480882256
+            },
+            "eye_contact": {
+                "left_eye_ratio": 0.0,
+                "right_eye_ratio": 0.0,
+                "score": 0.0
+            },
+            "head_pose": {
+                "pitch": 0.0,
+                "yaw": 0.0,
+                "roll": 0.0,
+                "score": 0.0
+            },
+            "posture": {
+                "shoulder_tilt": 36.58,
+                "alignment_offset": 4.28,
+                "score": 80.64
+            },
+            "eye_contact_score": 0.0,
+            "head_pose_score": 0.0,
+            "posture_score": 80.64,
+            "overall_visual_score": 26.88
+        },
+        {
+            "frame_index": 27,
+            "timestamp_sec": 1.8,
+            "face_detected": true,
+            "pose_detected": true,
+            "dominant_emotion": "happy",
+            "emotions": {
+                "angry": 3.251553109613812e-08,
+                "disgust": 2.2696894375397094e-16,
+                "fear": 0.0010375809033565948,
+                "happy": 99.95381235801055,
+                "sad": 0.00042019117021268226,
+                "surprise": 8.800916770352464e-09,
+                "neutral": 0.04473464480882256
+            },
+            "eye_contact": {
+                "left_eye_ratio": 0.524,
+                "right_eye_ratio": 0.538,
+                "score": 93.83
+            },
+            "head_pose": {
+                "pitch": -18.84,
+                "yaw": -32.1,
+                "roll": 6.13,
+                "score": 45.99
+            },
+            "posture": {
+                "shoulder_tilt": 24.34,
+                "alignment_offset": 42.53,
+                "score": 77.2
+            },
+            "eye_contact_score": 93.83,
+            "head_pose_score": 45.99,
+            "posture_score": 77.2,
+            "overall_visual_score": 72.34
+        },
+        {
+            "frame_index": 28,
+            "timestamp_sec": 1.87,
+            "face_detected": true,
+            "pose_detected": true,
+            "dominant_emotion": "happy",
+            "emotions": {
+                "angry": 3.251553109613812e-08,
+                "disgust": 2.2696894375397094e-16,
+                "fear": 0.0010375809033565948,
+                "happy": 99.95381235801055,
+                "sad": 0.00042019117021268226,
+                "surprise": 8.800916770352464e-09,
+                "neutral": 0.04473464480882256
+            },
+            "eye_contact": {
+                "left_eye_ratio": 0.424,
+                "right_eye_ratio": 0.535,
+                "score": 88.91
+            },
+            "head_pose": {
+                "pitch": -2.65,
+                "yaw": -32.8,
+                "roll": -6.94,
+                "score": 61.07
+            },
+            "posture": {
+                "shoulder_tilt": 25.28,
+                "alignment_offset": 88.82,
+                "score": 65.15
+            },
+            "eye_contact_score": 88.91,
+            "head_pose_score": 61.07,
+            "posture_score": 65.15,
+            "overall_visual_score": 71.71
+        },
+        {
+            "frame_index": 29,
+            "timestamp_sec": 1.93,
+            "face_detected": false,
+            "pose_detected": true,
+            "dominant_emotion": "happy",
+            "emotions": {
+                "angry": 3.251553109613812e-08,
+                "disgust": 2.2696894375397094e-16,
+                "fear": 0.0010375809033565948,
+                "happy": 99.95381235801055,
+                "sad": 0.00042019117021268226,
+                "surprise": 8.800916770352464e-09,
+                "neutral": 0.04473464480882256
+            },
+            "eye_contact": {
+                "left_eye_ratio": 0.0,
+                "right_eye_ratio": 0.0,
+                "score": 0.0
+            },
+            "head_pose": {
+                "pitch": 0.0,
+                "yaw": 0.0,
+                "roll": 0.0,
+                "score": 0.0
+            },
+            "posture": {
+                "shoulder_tilt": 16.7,
+                "alignment_offset": 45.32,
+                "score": 80.32
+            },
+            "eye_contact_score": 0.0,
+            "head_pose_score": 0.0,
+            "posture_score": 80.32,
+            "overall_visual_score": 26.77
+        }
+    ]
+}
